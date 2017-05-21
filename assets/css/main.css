@@ -1,1 +1,139 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(http://cdn2.dibujos.net/dibujos/pintar/amor-panda_2.png);
+    background-repeat: no-repeat;
+    background-position: 95% 20%;
+}
+#encabezado {
+    background: #333;
+    color: white;
+    height: 80px;
+    width: 100%;
+    /* hacemos que la cabecera ocupe el ancho completo de la página */
 
+    left: 0;
+    /* Posicionamos la cabecera al lado izquierdo */
+
+    top: 0;
+    /* Posicionamos la cabecera pegada arriba */
+
+    position: fixed;
+    /* Hacemos que la cabecera tenga una posición fija */
+}
+#encabezado a {
+    color: white;
+}
+nav {
+    float: left;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    background: #107704;
+}
+.pandas {
+    margin-top: 9em;
+    left: 0;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #7F7F7F;
+    color: black;
+    margin-right: 2em;
+}
+.origen {
+    background-color: #333;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10em;
+    color: white;
+    width: 200px;
+    height: 20px;
+    padding: 30px;
+    text-decoration: none;
+}
+.extincion {
+    background-color: #333;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10em;
+    color: white;
+    width: 200px;
+    height: 20px;
+    padding: 30px;
+    text-decoration: none;
+}
+.restaurar {
+    background-color: #333;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10em;
+    color: white;
+    width: 200px;
+    height: 20px;
+    padding: 30px;
+    text-decoration: none;
+}
+.botones a:hover {
+    background: #107704;
+}
+.texto-uno,
+.texto-dos {
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+    text-align: justify;
+    font-weight: bold;
+}
+#pie-pagina {
+    background-image: url(https://www.hogarmania.com/archivos/201303/brico-jardin-737-cosechar-bambu-xl-668x400x80xX.jpg);
+    position: relative;
+    margin-top: -50px;
+    /* Misma altura que el footer en negativo */
+
+    height: 40px;
+    /* Altura del footer */
+
+    clear: both;
+    font-weight: 50px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+}
+#pie-pagina h3 {
+    background-color: white;
+    color: #333;
+    width: 500px;
+    position: absolute;
+    margin-left: 400px;
+}
+.uno-pa {
+    background-image: url(https://www.natgeokids.com/wp-content/uploads/2014/04/panda-facts-1-150x150.jpg);
+}
+.dos-pa {
+    background-image: url(https://www.natgeokids.com/wp-content/uploads/2014/04/panda-facts-6-1-150x150.jpg);
+}
+.tres-pa {
+    background-image: url(https://i.imgflip.com/2/6dm8w.jpg);
+}
+.cuatro-pa {
+    background-image: url(https://blog.studyabroadusac.com/wp-content/uploads/2015/04/hug-a-panda-e1429292142334-150x150.jpg);
+}
+.fotos span {
+    color: white;
+}
