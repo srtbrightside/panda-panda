@@ -91,15 +91,16 @@ nav ul li a:hover {
 .botones a:hover {
     background: #107704;
 }
-.texto-uno,
-.texto-dos {
+.texto-uno, .texto-dos {
     float: left;
     width: 500px;
     height: 300px;
     margin-left: 30px;
     text-align: justify;
     font-weight: bold;
+    background-color: white;
 }
+
 #pie-pagina {
     background-image: url(https://www.hogarmania.com/archivos/201303/brico-jardin-737-cosechar-bambu-xl-668x400x80xX.jpg);
     position: relative;
@@ -122,16 +123,16 @@ nav ul li a:hover {
     position: absolute;
     margin-left: 400px;
 }
-.uno-pa {
+#uno-pa {
     background-image: url(https://www.natgeokids.com/wp-content/uploads/2014/04/panda-facts-1-150x150.jpg);
 }
-.dos-pa {
+#dos-pa {
     background-image: url(https://www.natgeokids.com/wp-content/uploads/2014/04/panda-facts-6-1-150x150.jpg);
 }
-.tres-pa {
+#tres-pa {
     background-image: url(https://i.imgflip.com/2/6dm8w.jpg);
 }
-.cuatro-pa {
+#cuatro-pa {
     background-image: url(https://blog.studyabroadusac.com/wp-content/uploads/2015/04/hug-a-panda-e1429292142334-150x150.jpg);
 }
 .fotos span {
